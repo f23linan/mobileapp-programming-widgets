@@ -14,6 +14,7 @@
         android:layout_marginTop="50dp"
         android:layout_marginStart="50dp"
         android:layout_marginEnd="50dp"
+        android:contentDescription="Android Logo"
         app:srcCompat="@drawable/ic_launcher_foreground" />
 
     <LinearLayout
@@ -26,6 +27,7 @@
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:hint="Förnamn"
+            android:inputType="text"
             android:textAlignment="center" />
 
 
@@ -36,6 +38,7 @@
             android:layout_weight="1"
             android:gravity="center_horizontal"
             android:hint="Efternamn"
+            android:inputType="text"
             android:textAlignment="center" />
     </LinearLayout>
 
