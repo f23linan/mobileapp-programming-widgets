@@ -41,11 +41,13 @@
             android:inputType="text"
             android:textAlignment="center" />
     </LinearLayout>
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="150dp"
+        android:text="Go!"
         android:layout_marginStart="150dp"
-        android:text="Send"/>
+        android:layout_marginEnd="150dp"/>
+
 
 </LinearLayout>
